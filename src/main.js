@@ -8,12 +8,10 @@ Vue.config.productionTip = false
 import {
     Menu,
     MenuItem,
-    Card
 } from 'view-design';
 
 Vue.component('iv-menu', Menu);
 Vue.component('iv-menu-item', MenuItem);
-Vue.component('iv-card', Card);
 
 
 new Vue({

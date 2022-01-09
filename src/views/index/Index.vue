@@ -1,7 +1,7 @@
 <template>
   <div class="main-wrapper">
     <MyHeader></MyHeader>
-    <router-view name="content"></router-view>
+    <router-view name="content" class="content-wrapper"></router-view>
     <MyFooter></MyFooter>
   </div>
 </template>
@@ -20,5 +20,7 @@ export default {
 </script>
 
 <style scoped>
-
+.content-wrapper{
+  min-height: 600px;
+}
 </style>
