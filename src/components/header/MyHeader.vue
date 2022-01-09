@@ -16,8 +16,22 @@ export default {
 </script>
 
 <style scoped>
+.ivu-menu {
+  opacity: 80%;
+}
+
 .header-nav {
   width: 420px;
   margin: 0 auto;
+}
+
+.ivu-menu-light.ivu-menu-horizontal .ivu-menu-item-active {
+  color: #e67474;
+  border-bottom: coral solid 5px;
+}
+
+.ivu-menu .header-nav .ivu-menu-item:hover {
+  color: #e67474;
+  border-bottom: coral solid 5px;
 }
 </style>

@@ -15,12 +15,13 @@ export default {
   components: {
     MyHeader,
     MyFooter
-  }
+  },
+  data: () => ({})
 }
 </script>
 
 <style scoped>
-.content-wrapper{
+.content-wrapper {
   min-height: 600px;
 }
 </style>
