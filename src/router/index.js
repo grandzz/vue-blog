@@ -3,7 +3,7 @@ import Router from 'vue-router'
 
 import Index from '@/views/index/Index'
 
-import ArticleList from "@/components/ArticleList/ArticleList";
+import ArticleList from "@/components/articleList/ArticleList";
 
 Vue.use(Router)
 
