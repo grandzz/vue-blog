@@ -8,10 +8,14 @@ Vue.config.productionTip = false
 import {
     Menu,
     MenuItem,
+    Row,
+    Col
 } from 'view-design';
 
 Vue.component('iv-menu', Menu);
 Vue.component('iv-menu-item', MenuItem);
+Vue.component('iv-row', Row);
+Vue.component('iv-col', Col);
 
 
 new Vue({

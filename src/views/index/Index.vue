@@ -21,7 +21,11 @@ export default {
 </script>
 
 <style scoped>
+.main-wrapper{
+  background: #f1f1f1;
+}
 .content-wrapper {
   min-height: 600px;
+  margin-left: 200px;
 }
 </style>
